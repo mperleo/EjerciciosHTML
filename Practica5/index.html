@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="./css/index.css" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Cusro Serbatic</h1>
+    <h2>Formulario de registro</h2>
+    <form>
+
+        <fieldset>
+            <legend class="leyenda">datos personales</legend>
+            <div class="separacion-input-sm">
+                <label id="nombre" name="nombre" class="bloque-60">Nombre</label><input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="separacion-input-sm">
+                <label id="prAp" name="prAp" class="bloque-60">Primer Apellido</label><input type="text" id="prAp" name="prAp">
+            </div>
+            <div class="separacion-input-sm">
+                <label id="segAp" name="segAp" class="bloque-60">Segundo apellido</label><input type="text" id="segAp" name="segAp">
+            </div>
+            <div class="separacion-input-sm">
+                <label id="fnac" name="fnac" class="bloque-60">Fecha nacimiento</label><input type="date" id="fnac" name="fnac">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend class="leyenda">domicilio</legend>
+            <div class="separacion-input flotarIzq" >
+                <label id="pais" name="pais" class="bloque-30">País</label>
+                <select id="pais" name="pais" class="bloque-70" >
+                    <option value="España">España</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Bélgica">Bélgica</option>
+                    <option value="Francia"> Francia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Luxemburgo">Luxemburgo</option>
+                    <option value="Países Bajos">Países Bajos</option>
+                    <option value="Dinamarca">Dinamarca</option>
+                    <option value="Irlanda">Irlanda</option>
+                    <option value="Grecia">Grecia</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Finlandia">Finlandia</option>
+                    <option value="Suecia">Suecia</option>
+                    <option value="Chequia">Chequia</option>
+                    <option value="Chipre">Chipre</option>
+                    <option value="Eslovaquia">Eslovaquia</option>
+                    <option value="Eslovenia">Eslovenia</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Hungría">Hungría</option>
+                    <option value="Letonia">Letonia</option>
+                    <option value="Lituania">Lituania</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Polonia">Polonia</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Rumanía">Rumanía</option>
+                    <option value="Croacia">Croacia</option>
+                </select>
+            </div>
+            <div class="salto"></div>
+
+            <div class="separacion-input flotarIzq">
+                <label id="direccion" name="direccion" class="bloque-30">Dirección</label><input type="text" id="direccion" name="direccion" class="bloque-70">
+            </div>  
+
+            <div class="separacion-input flotarIzq">
+                <label id="codPost" name="codPost" class="bloque-30">Código Postal</label><input type="text" maxlength="5" id="codPost" name="codPost">
+            </div>  
+
+            <div class="separacion-input flotarIzq">
+                <label id="localidad" name="localidad" class="bloque-30">Localidad</label><input type="text" id="localidad" name="localidad" class="bloque-70">
+            </div>  
+            
+            
+            <div class="separacion-input flotarIzq">
+                <label id="provincia" name="provincia" class="bloque-30">Provincia</label>
+                <select id="provincia" name="provincia" >
+                    <option value="provincia">Albacete</option>
+                    <option value="provincia">Álava</option>
+                    <option value="provincia">Almería</option>
+                    <option value="provincia">Álava</option>
+                    <option value="provincia">Asturias</option>
+                    <option value="provincia">Ávila</option>
+                    <option value="provincia">Badajoz</option>
+                    <option value="provincia">Baleares</option>
+                    <option value="provincia">Barcelona</option>
+                    <option value="provincia">Bizkaia</option>
+                    <option value="provincia">Burgos</option>
+                    <option value="provincia">Cáceres</option>
+                    <option value="provincia"> Cádiz</option>
+                    <option value="provincia">Cantabria</option>
+                    <option value="provincia">Castellón</option>
+                    <option value="provincia">Ciudad Real</option>
+                    <option value="provincia">Córdoba</option>
+                    <option value="provincia">A Coruña </option>
+                    <option value="provincia">Cuenca</option>
+                    <option value="provincia">Gipuzkoa</option>
+                    <option value="provincia">Girona</option>
+                    <option value="provincia">Granada</option>
+                    <option value="provincia">Guadalajara</option>
+                    <option value="provincia">Huelva</option>
+                    <option value="provincia">Jaén</option>
+                    <option value="provincia">León</option>
+                    <option value="provincia">Lleida</option>
+                    <option value="provincia">Lugo</option>
+                    <option value="provincia">Madrid</option>
+                    <option value="provincia">Málaga</option>
+                    <option value="provincia">Murcia</option>
+                    <option value="provincia">Navarra</option>
+                    <option value="provincia">Ourense</option>
+                    <option value="provincia">Palencia</option>
+                    <option value="provincia">Palmas, Las</option></option>
+                    <option value="provincia">Pontevedra</option>
+                    <option value="provincia">Rioja, La</option>
+                    <option value="provincia">Salamanca</option>
+                    <option value="provincia">Santa Cruz de Tenerife</option>
+                    <option value="provincia">Segovia</option>
+                    <option value="provincia">Sevilla</option>
+                    <option value="provincia">Soria</option>
+                    <option value="provincia">Tarragona</option>
+                    <option value="provincia">Teruel</option>
+                    <option value="provincia">Toledo</option>
+                    <option value="provincia">Valencia</option>
+                    <option value="provincia">Valladolid</option>
+                    <option value="provincia">Zamora</option>
+                    <option value="provincia">Zaragoza</option>
+                    <option value="provincia">Ceuta</option>
+                    <option value="provincia">Melilla</option>
+                </select>
+            </div>
+
+        </fieldset>  
+            
+        <fieldset>
+            <legend class="leyenda">datos de contacto</legend>
+            <div class="separacion-input-sm">
+                <label id="telefono" name="telefono" class="bloque-60">Télefono</label><input type="text" id="telefono" name="telefono" maxlength="9">
+            </div>
+            <div class="separacion-input-sm">
+                <label id="movil" name="movil" class="bloque-60">Móvil</label><input type="text" id="movil" name="movil" maxlength="9">
+            </div>
+            <div class="separacion-input-sm">
+                <label id="email" name="email" class="bloque-60">e-mail</label><input type="email" id="email" name="email">
+            </div>
+
+        </fieldset>
+        
+        <div class="botones-formulario">
+            <div class="acuerdo">
+                <input type="checkbox" class="check-acuerdo" id="acuerdo" name="acuerdo"><label class="acuerdo" id="acuerdo" name="acuerdo">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label>
+            </div>
+            
+            <input type="submit" id="registro" name="registro" class="botones" value="Registrar">
+            <input type="reset" id="limpiar" name="limpiar" class="botones" value="Limpiar">
+        </div>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    background-image: url('../img/tan-vintage-paper.jpg');
+    background-color: black;
+
+    font-family: monospace;
+    color: whitesmoke;
+
+    margin: 30px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 15px;
+
+    font-size: 50px;
+    font-family: 'Syne', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+    font-family: 'Syne', sans-serif;
+    text-transform: uppercase;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    color: dodgerblue;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+    padding: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 30px;
+    right: 35%;
+    left: 35%;
+    font-family: 'Syne', 'monospace';
+    font-size: xx-large;
+
+}
+
+hr{
+    border-radius: 10px;
+    width: 50%;
+    height:  15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

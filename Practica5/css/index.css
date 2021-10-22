@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Segoe UI, Segoe, Optima, Candara, Calibri, Arial, sans-serif;
+
+}
+
+h1{
+    color: #B72304;
+    font-size: 3em;
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+    margin: 35px;
+}
+
+h1,h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+fieldset{
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 3px;
+    border-radius: 24px;
+    padding: 2%;
+}
+
+.leyenda{
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+input:hover{
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+input:focus{
+    background-color:  #FEF9E7;
+}
+
+.flotarIzq{
+    float: left;
+    width: 45%;
+}
+
+.salto{
+    clear: both;
+}
+
+.separacion-input{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+.separacion-input-sm{
+    margin-bottom: 5px;
+    width:50%;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.bloque-60{
+    width: 60%;
+}
+.bloque-30{
+    width: 30%;
+}
+.bloque-70{
+    width: 65%;
+}
+
+.acuerdo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.check-acuerdo{
+    margin-right: 15px;
+}
+
+.botones-formulario{
+    text-align: center;
+}
+
+.botones{
+    padding: 10px;
+    font-size:medium;
+}
